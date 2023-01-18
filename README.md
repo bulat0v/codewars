@@ -1,5 +1,3 @@
-# codewars
-Solutions of tasks from the CodeWars platform
 
 Powerball Lottery
 
