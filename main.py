@@ -79,7 +79,7 @@ while True:
 price = '$' + str(2 * numPlays)
 print('It costs', price, 'to play', numPlays, 'times, but don\'t')
 print('worry. I\'m sure you\'ll win it all back.')
-input('Press Enter to start...')
+input('Press Enter to start the game...')
 possibleNumbers = list(range(1, 70))
 
 for i in range(numPlays):
@@ -104,7 +104,7 @@ for i in range(numPlays):
         print('you would be a billionaire if this was real!')
         break
     else:
-        print(' You lost.')  # Пробел в начале фразы тут необходим.
+        print('  You lost.')  # Пробел в начале фразы тут необходим.
 
 print('You have wasted', price)
 print('Thanks for playing!')
